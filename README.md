@@ -6,6 +6,12 @@ No dataset, no licences: the simulator generates its own data.
 
 ![results](results/comparison.png)
 
+### Watch it run
+
+![PPO agent vs baseline on the same slick](results/episode.gif)
+
+One strong-current episode, same slick for both (PPO 78.5% vs 51.0%; a hand-picked seed, not the average). Regenerate with `python -m skimmer.visualize --regime strong_current --seed 3`.
+
 ## Results (500 identical episodes per cell, mean ± 95% CI)
 
 | Regime | greedy | intercept→greedy (best baseline) | PPO seed0 | PPO seed1 | PPO + domain randomisation |
