@@ -1,0 +1,190 @@
+{
+  "train": {
+    "random": {
+      "recovered_mean": 0.02111,
+      "recovered_ci95": 0.007035610008069754,
+      "distance_mean": 206.65810441338024
+    },
+    "greedy_nearest": {
+      "recovered_mean": 0.6437999999999999,
+      "recovered_ci95": 0.02904338220200021,
+      "distance_mean": 169.80397834313277
+    },
+    "chase_centroid": {
+      "recovered_mean": 0.36761,
+      "recovered_ci95": 0.011894557236694185,
+      "distance_mean": 167.38953903876558
+    },
+    "intercept": {
+      "recovered_mean": 0.37712,
+      "recovered_ci95": 0.011952205346764356,
+      "distance_mean": 173.79095481549373
+    },
+    "intercept_then_greedy": {
+      "recovered_mean": 0.6516799999999999,
+      "recovered_ci95": 0.028571432234597415,
+      "distance_mean": 177.07757673471008
+    },
+    "ppo[seed0]": {
+      "recovered_mean": 0.65424,
+      "recovered_ci95": 0.025871860501233197,
+      "distance_mean": 172.10490713065587
+    },
+    "ppo[seed1]": {
+      "recovered_mean": 0.6411500000000001,
+      "recovered_ci95": 0.025097582674836243,
+      "distance_mean": 169.48544095970388
+    },
+    "ppo[dr_seed0]": {
+      "recovered_mean": 0.50947,
+      "recovered_ci95": 0.018623559351395477,
+      "distance_mean": 166.21430625301542
+    },
+    "ppo[dr_seed1]": {
+      "recovered_mean": 0.5009,
+      "recovered_ci95": 0.0177011663205059,
+      "distance_mean": 164.75434721358837
+    }
+  },
+  "strong_current": {
+    "random": {
+      "recovered_mean": 0.02239,
+      "recovered_ci95": 0.0073466738723897695,
+      "distance_mean": 206.65810441338024
+    },
+    "greedy_nearest": {
+      "recovered_mean": 0.17379,
+      "recovered_ci95": 0.017223081604253447,
+      "distance_mean": 127.05295120263379
+    },
+    "chase_centroid": {
+      "recovered_mean": 0.19852,
+      "recovered_ci95": 0.016354396269915524,
+      "distance_mean": 119.09480502505679
+    },
+    "intercept": {
+      "recovered_mean": 0.24036000000000002,
+      "recovered_ci95": 0.01733244535491869,
+      "distance_mean": 128.0660649435925
+    },
+    "intercept_then_greedy": {
+      "recovered_mean": 0.20041000000000003,
+      "recovered_ci95": 0.01782347651284923,
+      "distance_mean": 138.01371000680322
+    },
+    "ppo[seed0]": {
+      "recovered_mean": 0.25413,
+      "recovered_ci95": 0.02365248545252875,
+      "distance_mean": 119.3456462078459
+    },
+    "ppo[seed1]": {
+      "recovered_mean": 0.26305,
+      "recovered_ci95": 0.023640383060655107,
+      "distance_mean": 119.41017879044233
+    },
+    "ppo[dr_seed0]": {
+      "recovered_mean": 0.25749,
+      "recovered_ci95": 0.02155627712474112,
+      "distance_mean": 116.01288331196626
+    },
+    "ppo[dr_seed1]": {
+      "recovered_mean": 0.25906999999999997,
+      "recovered_ci95": 0.020878233098491593,
+      "distance_mean": 116.19620444954359
+    }
+  },
+  "wide_slick": {
+    "random": {
+      "recovered_mean": 0.02278,
+      "recovered_ci95": 0.0055012486574141884,
+      "distance_mean": 206.65810441338024
+    },
+    "greedy_nearest": {
+      "recovered_mean": 0.43988,
+      "recovered_ci95": 0.020678360782499718,
+      "distance_mean": 186.4909990360405
+    },
+    "chase_centroid": {
+      "recovered_mean": 0.2019,
+      "recovered_ci95": 0.006102423892415655,
+      "distance_mean": 167.5598028262452
+    },
+    "intercept": {
+      "recovered_mean": 0.2077,
+      "recovered_ci95": 0.00621109873750644,
+      "distance_mean": 173.87556541555762
+    },
+    "intercept_then_greedy": {
+      "recovered_mean": 0.44394,
+      "recovered_ci95": 0.020589990488903736,
+      "distance_mean": 191.8709665812046
+    },
+    "ppo[seed0]": {
+      "recovered_mean": 0.39797000000000005,
+      "recovered_ci95": 0.01667754575727772,
+      "distance_mean": 171.55717461827808
+    },
+    "ppo[seed1]": {
+      "recovered_mean": 0.39328,
+      "recovered_ci95": 0.01603725399226266,
+      "distance_mean": 169.91780791081865
+    },
+    "ppo[dr_seed0]": {
+      "recovered_mean": 0.30107,
+      "recovered_ci95": 0.01046033754078971,
+      "distance_mean": 165.47219765992645
+    },
+    "ppo[dr_seed1]": {
+      "recovered_mean": 0.30408999999999997,
+      "recovered_ci95": 0.010283090040627246,
+      "distance_mean": 163.37059344108496
+    }
+  },
+  "fast_tide": {
+    "random": {
+      "recovered_mean": 0.00772,
+      "recovered_ci95": 0.004045262724984409,
+      "distance_mean": 206.65810441338024
+    },
+    "greedy_nearest": {
+      "recovered_mean": 0.96566,
+      "recovered_ci95": 0.00495842373440793,
+      "distance_mean": 231.5473226238193
+    },
+    "chase_centroid": {
+      "recovered_mean": 0.39947000000000005,
+      "recovered_ci95": 0.003292205507456461,
+      "distance_mean": 239.9561608137939
+    },
+    "intercept": {
+      "recovered_mean": 0.3981,
+      "recovered_ci95": 0.0034030754874887948,
+      "distance_mean": 239.9468785007532
+    },
+    "intercept_then_greedy": {
+      "recovered_mean": 0.96893,
+      "recovered_ci95": 0.004331101613526676,
+      "distance_mean": 232.42282847226318
+    },
+    "ppo[seed0]": {
+      "recovered_mean": 0.86783,
+      "recovered_ci95": 0.005321399873411647,
+      "distance_mean": 239.7988056818831
+    },
+    "ppo[seed1]": {
+      "recovered_mean": 0.8636800000000001,
+      "recovered_ci95": 0.005350411876371166,
+      "distance_mean": 239.59715684903156
+    },
+    "ppo[dr_seed0]": {
+      "recovered_mean": 0.7578599999999999,
+      "recovered_ci95": 0.006839077737962319,
+      "distance_mean": 239.37822239940823
+    },
+    "ppo[dr_seed1]": {
+      "recovered_mean": 0.7099099999999999,
+      "recovered_ci95": 0.007665197094600905,
+      "distance_mean": 238.8314294837148
+    }
+  }
+}
